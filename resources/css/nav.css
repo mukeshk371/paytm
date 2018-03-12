@@ -96,6 +96,11 @@ body {
 	height: 25px;
 }
 
+.nav4 a:hover {
+    color: white;
+}
+
+
 
 .nav5 {
   overflow: hidden;
