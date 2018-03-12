@@ -1,7 +1,32 @@
 
-div.main {
-  border-radius:4px;
-  background-color: red;
-  float:center;
-  width:100%;
+div.recharge {
+	border-radius:4px;
+	background-color: #FFFFFF;
+	width:95%;
+	float: middle;
+	position: absolute;
+    top: 210px;
+	left: 35px;
 }
+
+div.main{
+	border-radius:4px;
+	background-color: #FFFFFF;
+	width:95%;
+	float: center;
+	position: relative;
+    top: 190px;
+	left: 35px;
+	right: 35px;
+}
+
+.div3 {
+    background-color: aqua; 
+	height:510px; 
+	width:20%; 
+	float:left;
+}
+
+.div3 img {
+    width: 100%;
+}	

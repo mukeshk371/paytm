@@ -3,7 +3,7 @@
     background-color: #FFFFFF;
     color: #333;
     padding: 11px 23px;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
 }
@@ -11,6 +11,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+	font-size: 15px;
 }
 
 .dropdown-content {
@@ -41,6 +42,3 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
-button {
-	

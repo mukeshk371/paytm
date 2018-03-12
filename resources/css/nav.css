@@ -61,6 +61,7 @@ body {
 
 .nav3 a {
   float: left;
+  margin: 20px 5px 5px 5px;
   color: #828282;
   text-align: center;
   padding: 8px 8px;
@@ -79,13 +80,70 @@ body {
 
 .nav4 a {
   float: left;
-  color: white;
+  margin: 8px;
+  color: #6B83AD;
   text-align: center;
-  padding: 8px 20px;
+  padding: 8px 23px;
   margin:10px;
   text-decoration: none;
   font-size: 12px;
   cursor:pointer;
   
 }
+
+.nav4 img {
+	width: 30px;
+	height: 25px;
+}
+
+
+.nav5 {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  width: 100%;
+  float: center;
+  border-radius: 4px;
+}
+
+.nav5 a {
+  float: left;
+  margin: 8px;
+  color: #333333;
+  text-align: center;
+  padding: 8px 20px;
+  margin:10px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor:pointer;
+  
+}
+
+
+.nav6 {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  width: 100%;
+  float: center;
+  border-radius: 4px;
+}
+
+.nav6 a {
+  float: left;
+  margin: 8px;
+  color: #909090;
+  text-align: center;
+  padding: 8px 20px;
+  margin:10px;
+  text-decoration: none;
+  font-size: 12px;
+  cursor:pointer;
+  top: 300px;
+  
+}
+
+.nav6 img {
+	width: 30px;
+	height: 25px;
+}
+
 
