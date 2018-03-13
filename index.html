@@ -10,6 +10,8 @@
 <link rel="stylesheet" text="text/css" href="resources/css/div.css">
 <link rel="stylesheet" text="text/css" href="resources/css/search.css">
 <link rel="stylesheet" text="text/css" href="resources/css/drop_button.css">
+<link rel="stylesheet" text="text/css" href="resources/css/slide_show.css">
+<link rel="stylesheet" text="text/css" href="resources/css/nav1.css">
 </head>
 
 <body>
@@ -161,7 +163,55 @@
 <img src="resources/images/park.png"><br/><br/>Amusement Parks</a>
 </div><br/>
 
-<div style = "background-color: red; height:510px; width:60%; float:left;" ></div>
+<div style = "background-color: red; height:510px; width:60%; float:left;" >
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="resources/images/slide/1.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/2.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/3.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/4.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/5.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/6.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/7.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/8.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/9.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/10.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/11.WEBP" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="resources/images/slide/12.WEBP" style="width:100%">
+</div>
+<ul>
+  <li><a href="#home">Bus Tickets<br/><br/>Get Rs 100 Cashback</a></li>
+  <li><a href="#news">Recharge or Pay bills<br/><br/>Get Upto Rs 100 Cashback</a></li>
+  <li><a href="#about">Laptops<br/><br/>Best Prices</a></li>
+  <li><a href="#contact">7 Pe 70 Offer<br/><br/>Get Rs 70 Cashback</a></li>
+  <li><a href="#about">Laptops<br/><br/>Best Prices</a></li>
+</ul>
+</div>
+</div>
 
 <div class="div3">
 <img src="resources/images/div_img/1.webp">
@@ -178,5 +228,30 @@
 </div>
 </div>
 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 </div>
+</body>
+</html>
+
+
 
