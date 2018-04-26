@@ -1,0 +1,35 @@
+@media only screen and (max-width:620px) {
+
+    body {
+        margin: 0;
+    }
+
+
+	.nav1, .nav4, .container-1, .main, .nav5, .nav6, .main-page, .nav4 a {
+		float: center;
+		width: 100%;
+	}
+
+	.nav2, .nav2 a, .nav1 a, .nav5 a, .div3 {
+		float: center;
+		width: 100%;
+        margin: 0;
+	}
+
+    .recharge, .div3 {
+    	float: center;
+    	width: 100%;
+        margin-left: 0;
+    }
+
+    li a {
+        width: 100%;
+        float: center;
+    }
+
+    .nav6 a {
+    	float: center;
+    	width: 100%;
+        margin: 0;
+    }	
+}
